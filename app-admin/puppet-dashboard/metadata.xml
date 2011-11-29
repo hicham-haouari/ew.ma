@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<herd>no-herd</herd>
+<longdescription lang="en">
+puppet-dashboard is a web ui for puppet
+</longdescription>
+<use>
+	<flag name='fastcgi'>Enable FastCGI</flag>
+	<flag name='imagemagick'>Enable imagemagick</flag>
+	<flag name='mysql'>Enable Mysql support</flag>
+	<flag name='openid'>Enable Openid</flag>
+	<flag name='passenger'>Enable Passenger</flag>
+	<flag name='postgres'>Enable PostgreSQL Support</flag>
+	<flag name='sqlite3'>Enable SQLite3 Support</flag>
+</use>
+</pkgmetadata>
+
